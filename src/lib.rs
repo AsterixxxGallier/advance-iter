@@ -1,3 +1,6 @@
+//! This crate provides two structs, [`Advance`] and [`CountingAdvance`], to help with consuming iterators one step at
+//! a time. Refer to their respective documentation for more information.
+
 /// Wrapper around an iterator. Has to be advanced using the
 /// [`advance`] method, which will cache the iterator's next element
 /// in `self.current`.
